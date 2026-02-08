@@ -188,7 +188,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Vinay Singh Tomar**
 
 - GitHub: (https://github.com/Vinaytomar-xm)
-- Portfolio:(https://vtomar-portfolio.vercel.app/)]
+- Portfolio:(https://vtomar-portfolio.vercel.app/)
 - LinkedIn: [https://linkedin.com/in/vinay-singh-tomar-5b65b9377]
 
 ## 🤝 Contributing
