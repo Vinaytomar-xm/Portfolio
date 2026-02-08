@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Singh Tomar</title>
+
+    <meta property="og:title" content="Vinay Singh Tomar - Portfolio">
+    <meta property="og:description"
+        content="Portfolio of Vinay Singh Tomar, a B.Tech CSE student passionate about frontend and Python development.">
+    <meta property="og:image" content="vinay2.jpeg">
+    <meta property="og:url" content="https://vtomar-portfolio.vercel.app/">
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta property="type" content="website">
+
+
+    <link rel="icon" href="vinay2.png" sizes="180x180" type="image/x-icon">
+    <link rel="apple-touch-icon" href="vinay2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">Vinay Tomar</div>
+        <div class="nav-right">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span id="themeIcon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-label">💻 AVAILABLE FOR OPPORTUNITIES</div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Vinay Singh Tomar</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I am 1st year B.Tech CSE student, passionate about the frontend and Python
+                    development.
+                    I build responsive web applications and create efficient, logic-based solutions.
+                </p>
+                <p class="hero-location">Indore, Madhya Pradesh, India</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work →</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <img src="vinay.jpeg" alt="Vinay Singh Tomar" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2025</div>
+                <div class="stat-label">Started B.Tech CSE</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">92%</div>
+                <div class="stat-label">Class X Score</div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="about-text">
+                    I'm a passionate Computer Science student at Medi-Caps University with a strong foundation
+                    in frontend development and Python programming. I believe in writing clean, maintainable
+                    code and continuously improving my technical skills through hands-on projects.
+                </p>
+                <p class="about-text">
+                    With experience in building responsive web applications using HTML, CSS, and JavaScript,
+                    coupled with Python utilities for various use cases, I enjoy solving real-world problems
+                    through code. I'm actively learning new technologies and participating in virtual
+                    internships to gain industry exposure.
+                </p>
+                <p class="about-text">
+                    When I'm not coding, I'm exploring new frameworks, contributing to open-source projects,
+                    or enhancing my problem-solving abilities through competitive programming.
+                </p>
+            </div>
+            <div>
+                <h3 class="section-title" style="font-size: 2rem;">Education</h3>
+                <div class="education-card">
+                    <h4>B.Tech - Computer Science & Engineering</h4>
+                    <p>Medi-Caps University</p>
+                    <p>2025 - 2029</p>
+                </div>
+                <div class="education-card">
+                    <h4>Senior Secondary (Science)</h4>
+                    <p>Govt. Excellence H.S. School</p>
+                    <p>2025</p>
+                    <span class="score">84.20%</span>
+                </div>
+                <div class="education-card">
+                    <h4>Secondary (Class X)</h4>
+                    <p>C M Rise Govt. Secondary School</p>
+                    <p>2023</p>
+                    <span class="score">92%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="skills" style="padding-top: 4rem;">
+        <div class="about-container" style="display: block;">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Libraries & Frameworks</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Streamlit</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Logic Building</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Version Control</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-header">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <p style="color: var(--gray); font-size: 1.1rem;">A showcase of my recent development work</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-icon">🌐</div>
+                <div class="project-content">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        Designed and deployed a fully responsive portfolio website to showcase my skills,
+                        projects, and experience. Features modern UI/UX design with smooth animations
+                        and mobile-first approach.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    <a href="https://vtomar-portfolio.vercel.app/" class="project-link" target="_blank">View Project
+                        →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🤖</div>
+                <div class="project-content">
+                    <h3>FuteeAi_chatbot</h3>
+                    <p>
+                        A powerful AI chatbot built with Python and Streamlit and powered by Groq's lightning-fast LLM
+                        API. Chat with state-of-the-art language models completely free! Experience seamless
+                        conversations and get instant responses with FuteeAi_chatbot.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"> Python</span>
+                        <span class="tech-badge"> Groq API</span>
+                        <span class="tech-badge"> Streamlit</span>
+                    </div>
+                    <a href="https://futeeai-chatbot.streamlit.app/" class="project-link" target="_blank">View
+                        Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🔐</div>
+                <div class="project-content">
+                    <h3>OTP Generator</h3>
+                    <p>
+                        Developed a Python-based utility to generate secure one-time passwords (OTPs)
+                        for authentication purposes. Implements cryptographic algorithms for enhanced security.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Random</span>
+                        <span class="tech-badge">Security</span>
+                    </div>
+                    <a href="https://github.com/Vinaytomar-xm/otp-generator" class="project-link" target="_blank">View
+                        on GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">📱</div>
+                <div class="project-content">
+                    <h3>QR Code Generator</h3>
+                    <p>
+                        Built a Python application that generates QR codes from text, URLs, or any data input.
+                        Utilizes Python libraries to create customizable QR codes for various use cases.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">qrcode</span>
+                        <span class="tech-badge">PIL</span>
+                    </div>
+                    <a href=https://github.com/Vinaytomar-xm/QR-generator class="project-link" target="_blank">View
+                        on
+                        GitHub →</a>
+                </div>
+            </div>
+
+            <!-- <div class="project-card fade-in">
+                <div class="project-icon">🧮</div>
+                <div class="project-content">
+                    <h3>Python Calculator (CLI)</h3>
+                    <p>
+                        Created a command-line calculator application with support for basic and advanced
+                        mathematical operations. Features error handling and a user-friendly interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">CLI</span>
+                        <span class="tech-badge">Math</span>
+                    </div>
+                    <a href="https://github.com/Vinaytomar-xm" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+            </div> -->
+
+            <div class="project-card fade-in">
+                <div class="project-icon">📘</div>
+                <div class="project-content">
+                    <h3>Facebook Login Page UI</h3>
+                    <p>
+                        Replicated Facebook's login interface to practice and strengthen frontend layout
+                        skills. Focuses on pixel-perfect design and responsive behavior across devices.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">UI Design</span>
+                    </div>
+                    <a href=https://github.com/Vinaytomar-xm/Fb-login-page class="project-link" target="_blank">View
+                        on
+                        GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="experience-container">
+            <h2 class="section-title">Experience & <span class="gradient-text">Achievements</span></h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <h3>Frontend & Python Practice Developer</h3>
+                    <p class="date">Self Projects • 2025 - Present</p>
+                    <ul>
+                        <li>Built multiple frontend layouts focusing on responsive design principles</li>
+                        <li>Developed Python utilities including OTP generator, QR code generator, and calculator</li>
+                        <li>Utilized Git and GitHub for version control and project management</li>
+                        <li>Strengthened problem-solving and logic-building skills through hands-on projects</li>
+                    </ul>
+                </div>
+                <div class="timeline-item fade-in">
+                    <h3>Technology Job Simulation - Deloitte</h3>
+                    <p class="date">Forage Virtual Internship • December 2025</p>
+                    <ul>
+                        <li>Completed virtual internship tasks simulating real-world software development workflows</li>
+                        <li>Gained exposure to professional development practices and methodologies</li>
+                        <li>Enhanced understanding of enterprise-level project requirements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="certifications-container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card fade-in">
+                    <h4>Technology Job Simulation</h4>
+                    <p>Deloitte (via Forage)</p>
+                </div>
+                <div class="cert-card fade-in">
+                    <h4>To-Do App with Local Storage</h4>
+                    <p>SkillEcted (JSSAV Edu)</p>
+                </div>
+                <div class="cert-card fade-in">
+                    <h4>Programming Course</h4>
+                    <p>MindLuster</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+            <p class="contact-subtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:Tomarvinaysingh70@gmail.com" target="_blank" class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h4>Email</h4>
+                    <p class="Email">
+                        [ Email.&#160;protected ]
+                    </p>
+                </a>
+                <a class="contact-card" target="_blank">
+                    <div class="contact-icon">📱</div>
+                    <h4>Mobile</h4>
+                    <p>+91 8236076680</p>
+                </a>
+                <a href="https://github.com/Vinaytomar-xm" class="contact-card" target="_blank">
+                    <div class="contact-icon">💻</div>
+                    <h4>GitHub</h4>
+                    <p>@Vinaytomar-xm</p>
+                </a>
+                <a href="https://linkedin.com/in/vinay-singh-tomar-5b65b9377" class="contact-card" target="_blank">
+                    <div class="contact-icon">🔗</div>
+                    <h4>LinkedIn</h4>
+                    <p>Vinay Singh Tomar</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Vinay Singh Tomar • Built with passion & code ❤️</p>
+    </footer>
+
+    <!-- Resume Download Button -->
+    <a href="Vinay_resume.pdf" download="Vinay_Resume.pdf" class="resume-btn" aria-label="Download Resume"
+        title="Download Resume">
+        📄
+    </a>
+
+    <!-- Refresh Button -->
+    <button class="refresh-btn" id="refreshBtn" aria-label="Refresh page" title="Refresh Page">
+        🔄
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
