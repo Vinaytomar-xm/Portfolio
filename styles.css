@@ -1188,3 +1188,13 @@
  .resume-btn:active {
      transform: scale(0.95) translateY(-5px);
  }
+
+
+@media (max-width: 576px) {
+    .hero-image-container {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        display: none;
+    }
+}
